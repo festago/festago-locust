@@ -9,7 +9,8 @@ def _(parser):
     parser.add_argument("--festival-id-end", type=int, default=3503, help="조회할 마지막 범위의 축제 식별자")
 
 
-class GetFestivalDetail(FastHttpUser):
+# 축제 상세 조회 테스트
+class FestivalDetail(FastHttpUser):
 
     @task
     def get(self):

@@ -10,7 +10,8 @@ def _(parser):
     parser.add_argument("--school-id-end", type=int, default=63, help="조회할 마지막 범위의 학교 식별자")
 
 
-class GetSchoolFestivals(FastHttpUser):
+# 학교 축제 목록 조회 테스트
+class SchoolFestivals(FastHttpUser):
 
     @task
     def get(self):
