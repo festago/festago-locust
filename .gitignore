@@ -2,3 +2,4 @@
 .DS_STORE
 **/*.log
 locust.conf
+__pycache__
